@@ -13,6 +13,7 @@ python-whois = "^0.9.4"
 shodan = "^1.31.0"
 python-dotenv = "^1.0.1"
 pyyaml = "^6.0.2"
+bs4 = "^0.0.2"
 
 [build-system]
 requires = ["poetry-core"]
