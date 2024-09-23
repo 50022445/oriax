@@ -13,7 +13,7 @@ These services are:
 * Shodan API
 * Google Dorks
 
-Some of these services can be quite annoying when queried to much (E.g. Google) that's why Oriax makes use of a cache system. These cached results can be found in your **/tmp** directory :innocent:
+Some of these services can be quite annoying when queried too much (E.g. Google). That's why Oriax makes use of a cache system, these cached results can be found in your **/tmp** directory :innocent:
 
 Note: To use the Shodan API, make sure you have a valid Shodan API key.
 
