@@ -24,3 +24,4 @@ Cargo.lock
 .env
 *_shodan.yaml
 output/*
+*.pyc

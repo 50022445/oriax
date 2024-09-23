@@ -34,9 +34,9 @@ python3 oriax.py https://example.com
 ```
 
 ## Roadmap
-- [ ] Implement Google Dork function for (sub)domain enumeration.
-- [ ] Implement caching in query functions to make the program alot faster.
-- [ ] Move each function to its own 'module' to make the code easier to read.
+- [x] Implement Google Dork function for (sub)domain enumeration.
+- [x] Implement caching in query functions to make the program alot faster.
+- [x] Move each function to its own 'module' to make the code easier to read.
 - [ ] Add argument support.
 - [ ] Add proxy support?
 
