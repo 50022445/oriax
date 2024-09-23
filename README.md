@@ -13,9 +13,11 @@ These services are:
 * Shodan API
 * Google Dorks
 
+Some of these services can be quite annoying when queried to much (E.g. Google) that's why Oriax makes use of a cache system. These cached results can be found in your **/tmp** directory :innocent:
+
 Note: To use the Shodan API, make sure you have a valid Shodan API key.
 
-## Installation
+## Installation :wrench:
 
 This tool uses [Poetry](https://python-poetry.org/docs/) for dependency-management.
 Please make sure you have Poetry installed :wink:
@@ -30,7 +32,7 @@ cd oriax && poetry init
 ## Usage
 
 ```sh
-python3 oriax.py https://example.com
+python3 main.py https://example.com
 ```
 
 ## Roadmap
