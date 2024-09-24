@@ -25,8 +25,8 @@ Please make sure you have Poetry installed :wink:
 #### OSX & Linux:
 
 ```sh
-git clone https://github.com/50022445/oriax.git \
-cd oriax && poetry init
+git clone https://github.com/50022445/oriax.git
+cd oriax && poetry install
 ```
 
 ## Usage
