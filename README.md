@@ -30,15 +30,41 @@ cd oriax && poetry install
 ```
 
 ## Usage
-
 ```sh
-python3 main.py https://example.com
+usage: main.py [-h] [--all] [--headers] [--dns] [--whois] [--shodan] [--dork] url
+
+positional arguments:
+  url         Target URL
+
+options:
+  -h, --help  show this help message and exit
+  --all       Run all functions
+  --headers   Check security headers
+  --dns       Query DNS information
+  --whois     Get WHOIS information
+  --shodan    Query Shodan data (Needs valid API token)
+  --dork      Run Google Dork
+```
+
+#### Examples
+```sh
+# Use all functions
+python3 main.py --all https://example.com
+```
+```sh
+# Query the WHOIS data and DNS records
+python3 main.py --whois --dns https://example.com #
+```
+```sh
+# Only query the Shodan API
+python3 main.py --shodan https://example.com
 ```
 
 ## Roadmap
 - [x] Implement Google Dork function for (sub)domain enumeration.
 - [x] Implement caching in query functions to make the program alot faster.
 - [x] Move each function to its own 'module' to make the code easier to read.
-- [ ] Add argument support.
-- [ ] Add proxy support?
+- [x] Add argument support.
+- [ ] Add proxy support.
+- [ ] Code refactor.
 

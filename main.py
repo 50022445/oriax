@@ -38,13 +38,13 @@ def ensure_output_dir(domain):
 # Main function to handle arguments and execute functions
 def main():
     banner()
-    parser = argparse.ArgumentParser(description='Web reconnaissance tool')
+    parser = argparse.ArgumentParser()
     parser.add_argument('url', help='Target URL')
     parser.add_argument('--all', action='store_true', help='Run all functions')
     parser.add_argument('--headers', action='store_true', help='Check security headers')
     parser.add_argument('--dns', action='store_true', help='Query DNS information')
     parser.add_argument('--whois', action='store_true', help='Get WHOIS information')
-    parser.add_argument('--shodan', action='store_true', help='Query Shodan data')
+    parser.add_argument('--shodan', action='store_true', help='Query Shodan data (Needs valid API token)')
     parser.add_argument('--dork', action='store_true', help='Run Google Dork')
 
     args = parser.parse_args()
