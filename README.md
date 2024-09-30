@@ -53,7 +53,7 @@ python3 main.py --all https://example.com
 ```
 ```sh
 # Query the WHOIS data and DNS records
-python3 main.py --whois --dns https://example.com #
+python3 main.py --whois --dns https://example.com
 ```
 ```sh
 # Only query the Shodan API
